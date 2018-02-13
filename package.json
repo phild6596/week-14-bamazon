@@ -1,8 +1,13 @@
 {
-  "name": "bamazon",
+  "name": "week-14-bamazon",
   "version": "1.0.0",
-  "description": "Bamazon with MySql and Node.JS",
+  "description": "MYSQL Bamazon app, using NODE.JS and MYSQL",
   "main": "bamazonCustomer.js",
+  "dependencies": {
+    "inquirer": "^5.1.0",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,13 +15,11 @@
     "type": "git",
     "url": "git+https://github.com/phild6596/week-14-bamazon.git"
   },
-  "author": "Phil D.",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/phild6596/week-14-bamazon/issues"
   },
-  "homepage": "https://github.com/phild6596/week-14-bamazon#readme",
-  "dependencies": {
-    "inquirer": "^5.1.0"
-  }
+  "homepage": "https://github.com/phild6596/week-14-bamazon#readme"
 }
