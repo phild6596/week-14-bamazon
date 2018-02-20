@@ -4,6 +4,7 @@
   "description": "MYSQL Bamazon app, using NODE.JS and MYSQL",
   "main": "bamazonCustomer.js",
   "dependencies": {
+    "cli-table": "^0.3.1",
     "inquirer": "^5.1.0",
     "mysql": "^2.15.0"
   },
